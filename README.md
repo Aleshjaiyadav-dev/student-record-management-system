@@ -1,54 +1,90 @@
 # Student Record Management System
 
-A simple command-line Student Record Management System built using Python.
+A command-line Student Record Management System built using Python. This project allows users to manage student records through a simple menu-driven interface while practicing core Python concepts.
 
 ## Features
 
-- Add Student
-- View All Students
-- Search Student by Roll Number
-- Menu-driven interface
-- Stores student information using dictionaries inside a list
+- Add a new student
+- View all student records
+- Search a student by Roll Number
+- Update student details
+- Delete student records
+- Prevent duplicate Roll Numbers
+- Input validation for numeric fields
+- Clean and formatted console output
 
 ## Technologies Used
 
 - Python 3
 
-## Concepts Practiced
+## Python Concepts Practiced
 
 - Functions
 - Lists
 - Dictionaries
 - Loops
 - Conditional Statements
-- User Input
-- Searching in Lists
-- Nested Data Structures
+- Exception Handling (`try` / `except`)
+- Data Searching
+- Updating and Deleting Records
+- Input Validation
 
 ## Project Structure
 
-student-record-system/
+```
+student-record-management-system/
 │── student_record.py
 │── README.md
+```
+
+## How to Run
+
+1. Clone the repository.
+2. Open the project folder.
+3. Run:
+
+```bash
+python student_record.py
+```
 
 ## Future Improvements
 
-- Update Student Details
-- Delete Student
-- Input Validation
-- Better User Interface
-- Save Student Records to a File
-- Load Student Records Automatically
+- Save records to a file (JSON)
+- Load records automatically on startup
+- Search by Name
+- Sort students by Marks or Roll Number
+- Display statistics (Highest, Lowest and Average Marks)
+- GUI version using Tkinter
 
 ## What I Learned
 
-While building this project, I learned how to:
-- Store multiple student records using lists and dictionaries.
-- Search data efficiently using loops.
-- Organize code using functions.
-- Build interactive menu-driven Python applications.
-- Improve command-line output formatting.
+Through this project, I learned how to:
+
+- Store and manage multiple records using lists and dictionaries.
+- Build menu-driven applications.
+- Search, update and delete records efficiently.
+- Validate user input using exception handling.
+- Organize code using reusable functions.
+- Improve program readability through better formatting.
+
+## Version
+
+**Current Version:** v1.1
+
+### Changelog
+
+### v1.1
+- Added Update Student feature.
+- Added Delete Student feature.
+- Prevented duplicate Roll Numbers.
+- Improved input validation.
+- Improved code organization using helper functions.
+
+### v1.0
+- Add Student
+- View Student
+- Search Student
 
 ## Author
 
-Created by **Alesh Jai**
+**Alesh Jai**
